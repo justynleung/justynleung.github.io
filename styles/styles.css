@@ -555,9 +555,18 @@ section {
 .contact-content-con .left-contact .contact-info .contact-item span {
   margin-right: 0.5rem;
 }
+.contact-content-con .left-contact .contact-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+}
+.contact-content-con .left-contact .contact-icons .btn-con {
+  margin: auto;
+}
 .contact-content-con .left-contact .contact-icon {
   display: flex;
-  margin-top: 2rem;
+  margin-top: auto;
 }
 .contact-content-con .left-contact .contact-icon a {
   display: flex;
@@ -613,7 +622,7 @@ section {
 }
 .contact-content-con .right-contact .submit-btn {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
 }
 
 /*Independed components*/

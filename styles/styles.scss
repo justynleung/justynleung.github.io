@@ -8,6 +8,7 @@
 :root {
     --color-primary: #191d2b;
     --color-secondary: #ff652f;
+    --color-text: #6c7983;
     --color-white: #FFFFFF;
     --color-black: #000;
     --color-grey0: #f8f8f8;
@@ -24,6 +25,7 @@
 .light-mode {
     --color-primary: #FFFFFF;
     --color-secondary: #5c9484;
+    --color-text: #f8f8f8;
     --color-white: #344460;
     --color-black: #000;
     --color-grey0: #f8f8f8;
@@ -474,7 +476,7 @@ section {
                 width: 80%;
                 text-align: center;
                 font-size: 1rem;
-                color: var(--color-grey-3);
+                color: var(--color-text);
                 margin-bottom: 1.5rem;
             }
 

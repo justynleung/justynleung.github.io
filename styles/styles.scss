@@ -460,13 +460,21 @@ section {
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            opacity: 0;
-            transform: scale(0);
-            transition: all .4s ease-in-out;
+            // opacity: 0;
+            // transform: scale(0);
+            // transition: all .4s ease-in-out;
 
             h3 {
                 font-size: 1.5rem;
                 color: var(--color-white);
+                // margin-bottom: 1.5rem;
+            }
+
+            p {
+                width: 80%;
+                text-align: center;
+                font-size: 1rem;
+                color: var(--color-grey-3);
                 margin-bottom: 1.5rem;
             }
 
@@ -506,10 +514,10 @@ section {
     }
 }
 
-.portfolio-item:hover .hover-items {
-    opacity: 1;
-    transform: scale(1);
-}
+// .portfolio-item:hover .hover-items {
+//     opacity: 1;
+//     transform: scale(1);
+// }
 
 //Blogs Section
 .blogs {
